@@ -24,7 +24,7 @@ public class BinarySearch{
       for(int i=0;i<size;i++){
            arr[i]=sc.nextInt();
       }
-      System.out.println("printing array....");
+      System.out.println("printing array ");
       System.out.print("[ ");
       for(int i=0;i<size;i++){
            System.out.print(arr[i] + " ");
