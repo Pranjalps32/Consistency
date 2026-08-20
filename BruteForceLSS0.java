@@ -25,10 +25,7 @@ public class BruteForceLSS0 {
             System.out.print(arr[i] + " ");
         }
         System.out.print(" ]");
-
-
     }
-    
     public static void main(String[] args) {
         int[] arr ={15,-2,2,-8,1,7,10,23};
 
