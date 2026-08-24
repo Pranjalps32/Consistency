@@ -18,8 +18,7 @@ public class FirstNonRecurringHashMap {
                       System.out.println(s.charAt(i));
                       break;
                     }
-            }
-        
+            } 
     }
     
 }
