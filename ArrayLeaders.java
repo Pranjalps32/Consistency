@@ -5,14 +5,12 @@ public class ArrayLeaders {
         for(int i=0;i<arr.length;i++){
             int n=arr[i];
              int k=0;
-            if(i==arr.length)
-                {
-                  System.out.println(n);
-                 }
+            
             for(int j=i+1;j<arr.length;j++){
                 if(n<arr[j])
                 {
                    k++;
+                   break;
                 }
             }
             if(k<1)

@@ -4,8 +4,8 @@ public class ReverseString {
         StringBuilder sb =new StringBuilder();
         for(int i=n-1;i>=0;i--)
         {
-            char ch=s.charAt(i);
-            sb.append(ch);
+            
+            sb.append(s.charAt(i));
 
          }
          System.out.println(sb);
@@ -21,13 +21,13 @@ public class ReverseString {
             left++;
             right--;
         }
-        System.out.println(charArray);
+        System.out.println(charArray.toString());
     }
     public static void main(String[] args) {
        
        String s="ABCDEF";
        reverseStringUsingStringBuilder(s);
-       reverseStringCharArray(s);
+       //reverseStringCharArray(s);
        
   }
 }

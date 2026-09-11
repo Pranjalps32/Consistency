@@ -1,7 +1,10 @@
 public class LongestPalindrome {
     public static boolean palindrome(String s1){
         StringBuilder sb =new StringBuilder(s1);
-        if (sb.toString().equals(sb.reverse().toString())){
+        String s2=sb.reverse().toString();
+        if (s1.equals(s2)){
+
+        
             return true;
         }
         return false;
