@@ -22,6 +22,5 @@ public class Longestsequence {
             }
         }
         System.out.println(longest);
-
     }
 }
