@@ -7,11 +7,9 @@ class FindIndex {
             {
                 return i;
             }
-            else if(nums[i]<target && i==nums.length-1){
-                return i+1;
-            }
+            
         }
-        return -1;
+        return nums.length;
         
     }
     public static void main(String[] args) {
